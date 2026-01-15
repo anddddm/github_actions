@@ -7,3 +7,7 @@ jobs:
     steps:
       - name: Zagolovok
         run: echo "Text"
+      - name: Many commands
+        run: |
+          node -v
+          npm -v
